@@ -26,7 +26,7 @@ const isCharAVowel = (x) => {
         return false
     }
 }
-console.log('Exercise 3 reuslt: ', isCharAVowel(a))
+console.log('Exercise 3 reuslt: ', isCharAVowel('a'))
 
 //ex 4
 const generateEmail = (name, domain) => {
@@ -36,7 +36,7 @@ console.log('Exercise 4 result: ', generateEmail('johnsmith', 'example.com'))
 
 //ex 5
 const greetUser = (name, timeOfDay) => {
-    return 'Hello ' + name + ' Good' + timeOfDay
+    return 'Hello ' + name + ' Good ' + timeOfDay
 }
 console.log('Exercise 5 result: ', greetUser('Sam','morning'))
 
